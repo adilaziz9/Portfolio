@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Adil AZIZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <div class="profile-picture">
+                <img src="./images/adil.jpeg" alt="Adil AZIZ">
+            </div>
+            <h3>Adil AZIZ</h3>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#home" class="nav-link active">
+                    <i class="fas fa-home"></i>
+                    <span>Accueil</span>
+                </a>
+            </li>
+            <li>
+                <a href="#profil" class="nav-link">
+                    <i class="fas fa-user"></i>
+                    <span>Profil</span>
+                </a>
+            </li>
+            <li>
+                <a href="#parcours" class="nav-link">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Parcours</span>
+                </a>
+            </li>
+            <li>
+                <a href="#certifications" class="nav-link">
+                    <i class="fas fa-certificate"></i>
+                    <span>Certifications</span>
+                </a>
+            </li>
+            <li>
+                <a href="#competences" class="nav-link">
+                    <i class="fas fa-code"></i>
+                    <span>Compétences</span>
+                </a>
+            </li>
+            <li>
+                <a href="#projets" class="nav-link">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Projets</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class="hero">
+        <canvas id="particles"></canvas>
+        <div class="hero-content">
+            <div class="title-wrapper">
+                <h1 class="title-3d">ADIL AZIZ</h1>
+            </div>
+            <p class="welcome-text">BIENVENUE SUR MON PORTFOLIO</p>
+            <a href="./assets/cv.pdf" class="btn btn-cv fade-in" target="_blank">Voir mon CV</a>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+                <span>Défiler vers le bas</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Présentation -->
+    <section id="profil" class="presentation">
+        <h2>Présentation</h2>
+        <div class="card presentation-card">
+            <p class="intro-text">
+                Bonjour, je m'appelle Adil AZIZ 👋
+                <br><br>
+                Je suis actuellement étudiant chez <strong>Nexa Digital School</strong> en première année de BTS SIO 
+                (Services Informatiques aux Organisations) en option SLAM (Solutions Logicielles et Application Métier) 💻
+                <br><br>
+                Je vous propose dans ce portfolio de retrouver ci-dessous mon parcours scolaire et professionnel, mes certifications ainsi que les projets 
+                que j'ai pu entreprendre au sein de mon cursus.
+            </p>
+            <div class="social-links-top">
+                <a href="https://www.linkedin.com/in/adil-aziz-pro/" target="_blank" class="social-link">
+                    <i class="devicon-linkedin-plain colored"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/adilaziz9" target="_blank" class="social-link">
+                    <i class="devicon-github-original"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BTS SIO Section -->
+    <section class="bts-sio">
+        <h2>Qu'est ce que le BTS SIO 🎓 ?</h2>
+        <div class="card info-card">
+            <p class="sio-description">
+                Le BTS SIO (Services Informatiques aux Organisations) est une formation de niveau bac+2 qui prépare aux métiers de l'informatique. Il se divise en deux options :
+            </p>
+            <div class="options-grid">
+                <div class="option-card">
+                    <h3>SLAM</h3>
+                    <h4>Solutions Logicielles et Applications Métiers</h4>
+                    <p>
+                        Cette option forme des spécialistes du développement d'applications. Les étudiants apprennent à :
+                        <br><br>
+                        • Concevoir et développer des solutions logicielles
+                        <br>
+                        • Gérer des bases de données
+                        <br>
+                        • Créer des applications web et mobiles
+                        <br>
+                        • Assurer la maintenance des programmes
+                    </p>
+                </div>
+                <div class="option-card">
+                    <h3>SISR</h3>
+                    <h4>Solutions d'Infrastructure, Systèmes et Réseaux</h4>
+                    <p>
+                        Cette option forme des professionnels des réseaux et équipements informatiques. Les étudiants apprennent à :
+                        <br><br>
+                        • Administrer des systèmes et réseaux
+                        <br>
+                        • Gérer l'infrastructure informatique
+                        <br>
+                        • Assurer la sécurité des données
+                        <br>
+                        • Maintenir et exploiter les équipements
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parcours -->
+    <section id="parcours" class="parcours">
+        <h2>Mon Parcours Scolaire 🎓</h2>
+        <div class="timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-card">
+                        <h3>BTS SIO</h3>
+                        <p>Nexa Digital School, Paris</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-card">
+                        <h3>BTS SIO</h3>
+                        <p>Nexa Digital School, Paris</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-card">
+                        <h3>Baccalauréat</h3>
+                        <p>Mention assez bien</p>
+                        <p>Lycée Simone de Beauvoir à Garges-lès-Gonesse</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+<!-- Ajoutez cette section après la section Parcours Scolaire -->
+<section id="experience" class="experience">
+    <h2>Mon Parcours Professionnel 💼</h2>
+    <div class="card experience-card">
+        <div class="experience-status">
+            <div class="status-icon">🔄</div>
+            <h3 class="status-title">Parcours professionnel en construction</h3>
+            <p class="status-description">
+                En tant qu'étudiant de première année en BTS SIO, je suis actuellement en phase d'apprentissage 
+                et à la recherche d'opportunités professionnelles. Cette section sera mise à jour avec mes futures 
+                expériences professionnelles, stages et alternances dans le domaine de l'informatique.
+            </p>
+            <div class="coming-soon-banner">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <p class="progress-text">En cours de développement professionnel</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Diplômes et Certifications -->
+    <section id="certifications" class="diplomes">
+        <h2>Diplômes et Certifications 📜</h2>
+        <div class="card certifications-card">
+            <div class="upload-zone">
+                <i class="fas fa-file-upload"></i>
+                <p class="coming-soon">Cette section sera mise à jour au fur et à mesure de l'obtention des certifications.</p>
+                <div class="certification-list">
+                    <!-- Les certifications seront ajoutées ici -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="skills">
+        <h2>Mes compétences développement 👨‍💻</h2>
+        <div class="skills-grid">
+            <div class="skill-item slide-up">
+                <i class="devicon-python-plain colored"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-linux-plain"></i>
+                <span>Linux</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-php-plain colored"></i>
+                <span>PHP</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-mysql-plain colored"></i>
+                <span>MySQL</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-bash-plain"></i>
+                <span>Bash</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-c-plain colored"></i>
+                <span>C</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-html5-plain colored"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-typescript-plain colored"></i>
+                <span>TypeScript</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-css3-plain colored"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill-item slide-up">
+                <i class="devicon-javascript-plain colored"></i>
+                <span>JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outils -->
+    <section class="tools">
+        <h2>Outils/Logiciels utilisés ⚙️</h2>
+        <div class="tools-grid">
+            <div class="tool-item">
+                <img src="https://img.icons8.com/color/48/000000/vmware.png" alt="VMware">
+                <span>VMware</span>
+            </div>
+            <div class="tool-item">
+                <img src="https://img.icons8.com/color/48/000000/virtualbox.png" alt="VirtualBox">
+                <span>Oracle VM VirtualBox</span>
+            </div>
+            <div class="tool-item">
+                <i class="devicon-git-plain colored"></i>
+                <span>Git Bash</span>
+            </div>
+            <div class="tool-item">
+                <i class="devicon-github-original colored"></i>
+                <span>GitHub</span>
+            </div>
+            <div class="tool-item">
+                <i class="devicon-vscode-plain colored"></i>
+                <span>VS Code</span>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projets -->
+    <section id="projets" class="projets">
+        <h2>Projets 🚧</h2>
+        <div class="card projets-card">
+            <div class="projects-status">
+                <div class="status-icon">🔄</div>
+                <h3 class="status-title">Projets en cours de développement</h3>
+                <p class="status-description">
+                    En tant qu'étudiant de première année en BTS SIO, je suis actuellement en phase d'apprentissage 
+                    et de développement de mes compétences. Mes projets sont en cours de création et cette section 
+                    sera régulièrement mise à jour pour présenter mes futures réalisations.
+                </p>
+                <div class="status-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <p class="progress-text">En cours de développement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact ✉️</h2>
+        <div class="card">
+            <p>
+                Envoyez-moi un email à l'adresse suivante 
+                <a href="mailto:adilaziz.dev@gmail.com">adilaziz.dev@gmail.com</a> 
+                ou suivez-moi via mes réseaux sociaux.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/adil-aziz-pro/" target="_blank" class="social-link">
+                    <i class="devicon-linkedin-plain colored"></i>
+                </a>
+                <a href="https://github.com/adilaziz9" target="_blank" class="social-link">
+                    <i class="devicon-github-original"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+
+    <footer class="copyright">
+        <p>© Copyright 2024 <span>Designed by Adil AZIZ</span></p>
+        <p>Tous droits réservés.</p>
+    </footer>
+
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
+
